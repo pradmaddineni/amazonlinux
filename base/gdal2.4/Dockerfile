@@ -190,6 +190,7 @@ RUN cd /tmp/gdal \
       --with-xml2 \
       --with-webp=$PREFIX \
       --with-zstd=$PREFIX \
+      --with-postgres \
       --without-bsb \
       --without-cfitsio \
       --without-ecw \
